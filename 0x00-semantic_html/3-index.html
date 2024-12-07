@@ -6,7 +6,7 @@
         <meta name="keywords" content="HTML, CSS, JavaScript, accessibility, Blog, SEO">
         <meta name="author" content="Patrick">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Semantic Html Blog Post</title>
+        <title id="title">Semantic Html Blog Post</title>
     </head>
     <body>
         <header>
@@ -21,10 +21,10 @@
         </header>
         <main>
             <article>
-                <h2>understanding Semantic Html</h2>
+                <h2>Understanding Semantic HTML</h2>
                 <p>Published on <time datetime="2024-09-10"> September 10</time></p>
                 <section>
-                    <h3>introduction</h3>
+                    <h3>Introduction</h3>
                     <p>Semantic HTML helps improve the accessibility and SEO of your website. In this post, we’ll explore its benefits and how to implement it.</p>
                 </section>
                 <section>
@@ -47,18 +47,17 @@
             <section>
                 <form action="#" method="POST" aria-labelledby="form-title" role="form">
                     <div>
-                        <label for="name">name</label>
+                        <label for="name">Name</label>
                         <input type="text" id="name" name="name" aria-required="true">
                     </div>
                     <div>
-                        <label for="email">email</label>
+                        <label for="email">Email</label>
                         <input type="email" id="email" name="email" aria-required="true">   
                     </div>
                     <div>
                         <button type="submit" aria-label="Submit the form">Submit</button>
                     </div>
-                    <div>
-                        <p aria-live="polite" role="alert"></p>
+                    <div  aria-live="polite" role="alert">
                     </div>
                 </form>
             </section>
